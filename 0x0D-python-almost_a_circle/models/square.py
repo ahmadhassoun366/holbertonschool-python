@@ -11,7 +11,7 @@ class Square(Rectangle):
     """Class Square"""
 
     def __init__(self, size, x=0, y=0, id=None):
-        """Initialization of the class"""
+        """Initialization of teh class"""
         super().__init__(size, size, x, y, id)
 
     def __str__(self):
